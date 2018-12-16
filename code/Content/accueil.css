@@ -1,5 +1,6 @@
 * {margin:0; padding:0}
 
+/*  DEBUT HEADER */
 header
 {
 	background-color: #F6F6F6;
@@ -7,18 +8,18 @@ header
 #onglets
 {
 	background-color: #F6F6F6;
-    font : bold 20px Batang, arial, serif;
-    text-align: center;
-    padding :0; margin: 0 ; /* à modifier suivant la taille de la police ET de la hauteur de l'onglet dans #onglets li */
-    border-bottom: 8px solid #E83968;
-    min-width: 1000px;
+  font : bold 20px Batang, arial, serif;
+  text-align: center;
+  padding :0; margin: 0 ; /* à modifier suivant la taille de la police ET de la hauteur de l'onglet dans #onglets li */
+  border-bottom: 8px solid #E83968;
+  min-width: 1000px;
 }
 
 #onglets li
 {
 	display: inline;
-    list-style-type: none;
-    margin-left: 15px;
+  list-style-type: none;
+  margin-left: 15px;
 }
 
 #onglets a.active
@@ -29,56 +30,64 @@ header
 
 #onglets a
 {
-    display : inline-block;
-    text-decoration :none;
-    padding : 4px;
-    color : #1F4F7A;
+  display : inline-block;
+  text-decoration :none;
+  padding : 4px;
+  color : #1F4F7A;
 }
 #onglets a:hover
 {
-    color:#FCBF16;
+  color:#FCBF16;
 }
 
 #logo
 {
-		display: block;
-    margin-left: auto;
-    margin-right: auto;
-		width: 200px;
-		height: auto
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+	width: 200px;
+	height: auto
 }
+/*  FIN HEADER */
 
+/* DEBUT BLOC CENTRAL */
 #blocppl
 {
 	border: 8px solid #1F4F7A;
 	margin-left: auto;
-    margin-right: auto;
-    margin-top: 2.5%;
-    width: 960px;
-    min-width: 960px;
+  margin-right: auto;
+  margin-top: 7.5%;
+  width: 960px;
+  min-width: 960px;
 }
 
 #cases td
 {
+	font : bold 20px Batang, arial, serif;
+	text-align: center;
+	color: #595959;
 	border: 6px solid #FCBF16;
 	margin-left: auto;
-    margin-right: auto;
-    width: 450px;
-    min-width: 280px;
-    height: 250px;
-		max-width: 600px;
+  margin-right: auto;
+  width: 450px;
+  min-width: 280px;
+  height: 250px;
+	max-width: 600px;
 
 }
 
-.imagecase
-{
-	display: block;
-    margin-left: auto;
-    margin-right: auto;
-	max-width: 300px;
-	height: auto;
+#cases a {
+	text-decoration :none;
+	color : #71C2AE;
 }
 
+#cases a:hover{
+	color:#E83968;
+}
+
+/* FIN BLOC CENTRAL */
+
+/* DEBUT PIED DE PAGE */
 footer {
 	position:absolute;
 	bottom:0;
@@ -95,3 +104,4 @@ img.logo {
 	width:80px;
 	height:auto;
 }
+/* FIN PIED DE PAGE */

@@ -42,11 +42,24 @@ header
 
 #onglets a
 {
-  margin-left:	auto;display : inline-block;
+  margin-left:	auto;
+	display : inline-block;
   text-decoration :none;
   padding : 4px;
   color : #1F4F7A;
 }
+
+.sticky {
+  position: fixed;
+	right:0;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+
 #onglets a:hover
 {
   color:#FCBF16;
@@ -56,7 +69,6 @@ header
 
 body {
 	padding-bottom: 100px;
-
 }
 
 #logo
@@ -120,12 +132,7 @@ body {
 
 #cases a {
 	text-decoration :none;
-	color: #595959;<footer>
-			<a href= "https://www.facebook.com/centre.ludema"><img class='logo' src=".\..\Content\image_site/Facebook.png"></a>
-			<a href= "https://twitter.com/centre_ludema"><img class='logo' src=".\..\Content\image_site/Twitter.png"></a>
-			<a href= "https://www.instagram.com/centre_ludema/"><img class='logo' src=".\..\Content\image_site/Instagram.png"></a>
-			<a href= "https://www.linkedin.com/company/ludema"><img class='logo' id="In" src=".\..\Content\image_site/In.png"></a>
-	</footer>
+	color: #595959;
 }
 
 #cases a:hover{

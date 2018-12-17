@@ -12,6 +12,8 @@ header
 
 #onglets
 {
+	display: inline-block;
+	width: 100%;
 	background-color: #F6F6F6;
   font : bold 20px Batang, arial, serif;
   text-align: center;
@@ -40,7 +42,7 @@ header
 
 #onglets a
 {
-    margin-left:	auto;display : inline-block;
+  margin-left:	auto;display : inline-block;
   text-decoration :none;
   padding : 4px;
   color : #1F4F7A;
@@ -50,7 +52,10 @@ header
   color:#FCBF16;
 }
 
+
+
 body {
+	padding-bottom: 100px;
 
 }
 
@@ -63,6 +68,8 @@ body {
 	width: 200px;
 	height: auto;
 }
+
+
 /*  FIN HEADER */
 
 /* DEBUT BLOC CENTRAL */
@@ -71,11 +78,12 @@ body {
 	/*border: 8px solid #1F4F7A;*/
 	margin-left: auto;
   margin-right: auto;
-  margin-top: 7.5%;
+  margin-top: 4.5%;
   width: 960px;
   min-width: 960px;
 
 }
+
 
 #cases td
 {
@@ -112,7 +120,12 @@ body {
 
 #cases a {
 	text-decoration :none;
-	color: #595959;
+	color: #595959;<footer>
+			<a href= "https://www.facebook.com/centre.ludema"><img class='logo' src=".\..\Content\image_site/Facebook.png"></a>
+			<a href= "https://twitter.com/centre_ludema"><img class='logo' src=".\..\Content\image_site/Twitter.png"></a>
+			<a href= "https://www.instagram.com/centre_ludema/"><img class='logo' src=".\..\Content\image_site/Instagram.png"></a>
+			<a href= "https://www.linkedin.com/company/ludema"><img class='logo' id="In" src=".\..\Content\image_site/In.png"></a>
+	</footer>
 }
 
 #cases a:hover{
@@ -121,10 +134,21 @@ body {
 
 /* FIN BLOC CENTRAL */
 
+
+#imgAccueil{
+	display: inline-block;
+	margin-left: 50%;
+	transform: translateX(-50%);
+	margin-right: auto;
+	height: auto;argin-top: -50px;
+
+}
+
 /* DEBUT PIED DE PAGE */
 footer {
 	position:fixed;
 	bottom: 0;
+
 	width:100%;
 	border-top: 8px solid #E83968;
 	background: #F6F6F6;

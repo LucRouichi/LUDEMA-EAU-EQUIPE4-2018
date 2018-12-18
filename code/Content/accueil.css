@@ -7,14 +7,14 @@
 /*  DEBUT HEADER */
 header
 {
-	background-color: #F6F6F6;
+	background-color: #fafafa;
 }
 
 #onglets
 {
 	display: inline-block;
 	width: 100%;
-	background-color: #F6F6F6;
+	background-color: #fafafa;
   font : bold 20px Batang, arial, serif;
   text-align: center;
   padding :0; margin: 0 ; /* à modifier suivant la taille de la police ET de la hauteur de l'onglet dans #onglets li */
@@ -58,7 +58,6 @@ header
 }
 
 .sticky + .content {
-  padding-top: 60px;
 }
 
 #onglets a:hover
@@ -74,12 +73,14 @@ body {
 
 #logo
 {
-	display: inline-block;
-	margin-left: 50%;
-	transform: translateX(-50%);
-  margin-right: auto;
+	display: inline;
+	transform: translateX(427.1%);
 	width: 200px;
 	height: auto;
+}
+
+body a:focus{
+	outline:0;
 }
 
 
@@ -95,6 +96,7 @@ body {
   width: 960px;
   min-width: 960px;
 
+
 }
 
 
@@ -102,22 +104,28 @@ body {
 {
 	font : bold 20px Batang, arial, serif;
 	text-align: center;
-	border: 6px solid /*#FCBF16*/#1F4F7A;
+	border: 3px solid /*#FCBF16*/#1F4F7A;
   width: 450px;
   min-width: 280px;
   height: 250px;
 	max-width: 450px;
 	background-color: white;
-	border-radius: 30px;
-	box-shadow: 0px 6px 17px #8c8c8c;
+	border-radius: 10px;
+	background: #fafafa;
+
+/*	box-shadow: 0px 6px 17px #8c8c8c;*/
+
+
 
 
 }
 .text_bppl
  {
-	margin-top: 70px;#656565
+	margin-top: 8%;#656565
 	vertical-align: middle;
 	display: inline-block;
+	font : 18px Batang, arial, serif;
+
 }
 
 #cases td a {
@@ -126,8 +134,13 @@ body {
 	display: block;
 }
 
-#cases td:hover{
-	background-color:#d6e7f5;
+.boutonC1:hover{
+	background-color:#fef1cd;
+
+}
+
+.boutonC2:hover{
+	background-color:#dbf0eb;
 
 }
 
@@ -140,6 +153,39 @@ body {
 	color:#595959;
 }
 
+.boutonC1 {
+	width:100px;
+	height:100px;
+	background:#fafafa;
+	font:bold 13px Arial;
+	border-radius:50%;
+	color:#555;
+	margin-left: 25%;
+	transform:translate(-50%,-70%);
+
+	border-color: #FCBF16;
+	border-style: solid;
+
+
+}
+
+.boutonC2 {
+	width:100px;
+	height:100px;
+	background:#fafafa;
+	font:bold 13px Arial;
+	border-radius:50%;
+	color:#555;
+	margin-left: 33%;
+	transform:translate(0%,-70%);
+	border-color:  #71C2AE;
+	border-style: solid;
+
+
+}
+
+.boutonC:active {outline-style:none;outline:0;}
+
 /* FIN BLOC CENTRAL */
 
 
@@ -148,7 +194,7 @@ body {
 	margin-left: 50%;
 	transform: translateX(-50%);
 	margin-right: auto;
-	height: auto;argin-top: -50px;
+	height: auto;
 
 }
 
@@ -156,10 +202,9 @@ body {
 footer {
 	position:fixed;
 	bottom: 0;
-
 	width:100%;
 	border-top: 8px solid #E83968;
-	background: #F6F6F6;
+	background: #fafafa;
 	text-align: center;
 	-moz-box-shadow: 0px -6px 5px  #b3b3b3;
 	-webkit-box-shadow: 0px -6px 5px  #b3b3b3;

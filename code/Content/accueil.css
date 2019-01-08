@@ -1,53 +1,44 @@
-* {margin:0; padding:0}
+* {margin:0; padding:0;outline: 0;}
 
 @font-face {
 	font-family: "Batang";
 	src: url("./../fonts/Batang.ttf");
 }
-/*  DEBUT HEADER */
-header
-{
-	background-color: #fafafa;
-}
 
-#onglets
-{
+/*  DEBUT HEADER */
+header{background-color: #fafafa;}
+body {padding-bottom: 100px;}
+
+#onglets {
 	display: inline-block;
 	width: 100%;
 	background-color: #fafafa;
   font : bold 20px Batang, arial, serif;
   text-align: center;
-  padding :0; margin: 0 ; /* à modifier suivant la taille de la police ET de la hauteur de l'onglet dans #onglets li */
   border-bottom: 8px solid #E83968;
   min-width: 1000px;
 	-moz-box-shadow: 0px 6px 5px #b3b3b3;
 	-webkit-box-shadow: 0px 6px 5px #b3b3b3;
 	-o-box-shadow: 0px 6px 5px #b3b3b3;
 	box-shadow: 0px 6px 7px #b3b3b3;
-
 }
-
-#onglets li
-{
+#onglets li {
 	display: inline;
   list-style-type: none;
   margin-left: 15px;
 }
-
-#onglets a.active
-{
+#onglets a.active {
 	text-decoration :none;
 	color : #71C2AE;
 }
-
-#onglets a
-{
+#onglets a {
   margin-left:	auto;
 	display : inline-block;
   text-decoration :none;
   padding : 4px;
   color : #1F4F7A;
 }
+#onglets a:hover{color:#FCBF16;}
 
 .sticky {
   position: fixed;
@@ -56,53 +47,27 @@ header
   top: 0;
   width: 100%;
 }
+.sticky + .content {}
 
-.sticky + .content {
-}
-
-#onglets a:hover
-{
-  color:#FCBF16;
-}
-
-
-
-body {
-	padding-bottom: 100px;
-}
-
-#logo
-{
+#logo {
 	display: inline;
 	transform: translateX(427.1%);
 	width: 200px;
 	height: auto;
 }
-
-body a:focus{
-	outline:0;
-}
-
-
 /*  FIN HEADER */
 
 /* DEBUT BLOC CENTRAL */
-#blocppl
-{
-	/*border: 8px solid #1F4F7A;*/
+#blocppl {
 	margin-left: auto;
   margin-right: auto;
   margin-top: 4.5%;
   width: 960px;
   min-width: 960px;
-
-
 }
 
-
-#cases td
-{
-	font : bold 20px Batang, arial, serif;
+#cases td {
+	font : 18px Batang, arial, serif;
 	text-align: center;
 	border: 3px solid /*#FCBF16*/#1F4F7A;
   width: 450px;
@@ -112,45 +77,6 @@ body a:focus{
 	background-color: white;
 	border-radius: 10px;
 	background: #fafafa;
-
-/*	box-shadow: 0px 6px 17px #8c8c8c;*/
-
-
-
-
-}
-.text_bppl
- {
-	margin-top: 8%;#656565
-	vertical-align: middle;
-	display: inline-block;
-	font : 18px Batang, arial, serif;
-
-}
-
-#cases td a {
-	width: 100%;
-	height:100%;
-	display: block;
-}
-
-.boutonC1:hover{
-	background-color:#fef1cd;
-
-}
-
-.boutonC2:hover{
-	background-color:#dbf0eb;
-
-}
-
-#cases a {
-	text-decoration :none;
-	color: #595959;
-}
-
-#cases a:hover{
-	color:#595959;
 }
 
 .boutonC1 {
@@ -162,13 +88,9 @@ body a:focus{
 	color:#555;
 	margin-left: 25%;
 	transform:translate(-50%,-70%);
-
 	border-color: #FCBF16;
 	border-style: solid;
-
-
 }
-
 .boutonC2 {
 	width:100px;
 	height:100px;
@@ -180,23 +102,18 @@ body a:focus{
 	transform:translate(0%,-70%);
 	border-color:  #71C2AE;
 	border-style: solid;
-
-
 }
+.boutonC1:hover{background-color:#fef1cd;}
+.boutonC2:hover{background-color:#dbf0eb;}
 
-.boutonC:active {outline-style:none;outline:0;}
-
-/* FIN BLOC CENTRAL */
-
-
-#imgAccueil{
+#imgAccueil {
 	display: inline-block;
 	margin-left: 50%;
 	transform: translateX(-50%);
 	margin-right: auto;
 	height: auto;
-
 }
+/* FIN BLOC CENTRAL */
 
 /* DEBUT PIED DE PAGE */
 footer {

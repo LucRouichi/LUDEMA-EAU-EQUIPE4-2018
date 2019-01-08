@@ -1,0 +1,122 @@
+* {margin:0; padding:0;outline: 0;}
+
+@font-face {
+	font-family: "Batang";
+	src: url("./../fonts/Batang.ttf");
+}
+
+/*  DEBUT HEADER */
+header{background-color: #fafafa;}
+body {padding-bottom: 100px;}
+
+#onglets {
+	display: inline-block;
+	width: 100%;
+	background-color: #fafafa;
+  font : bold 20px Batang, arial, serif;
+  text-align: center;
+  border-bottom: 8px solid #E83968;
+  min-width: 1000px;
+	-moz-box-shadow: 0px 6px 5px #b3b3b3;
+	-webkit-box-shadow: 0px 6px 5px #b3b3b3;
+	-o-box-shadow: 0px 6px 5px #b3b3b3;
+	box-shadow: 0px 6px 7px #b3b3b3;
+}
+
+#onglets li {
+	display: inline;
+  list-style-type: none;
+  margin-left: 15px;
+}
+#onglets a.active {
+	text-decoration :none;
+	color : #71C2AE;
+}
+#onglets a {
+  margin-left:	auto;
+	display : inline-block;
+  text-decoration :none;
+  padding : 4px;
+  color : #1F4F7A;
+}
+#onglets a:hover{color:#FCBF16;}
+
+.sticky {
+  position: fixed;
+	z-index: 1;
+	right:0;
+  top: 0;
+  width: 100%;
+}
+.sticky + .content {}
+
+#logo {
+	display: inline;
+	transform: translateX(427.1%);
+	width: 200px;
+	height: auto;
+}
+/*  FIN HEADER */
+
+.container {
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 100px;
+	text-align:center;
+	font : 20px Batang, arial, serif;
+	color:#1F4F7A ;
+}
+
+p{color: black;}
+p a {text-decoration: none;}
+p a:link {color:#1F4F7A ;}
+p a:visited {color:#1F4F7A;}
+p a:hover {color: #FCBF16;}
+input{
+	border-style: solid;
+ 	border-width: 1px;
+	background-color: #f9f9f9;
+	border-color: #71C2AE;
+}
+
+.register {
+	width:100px;
+	height:100px;
+	background:#fafafa;
+	font:bold 13px Arial;
+	border-radius:50%;
+	color:#555;
+	border-color: #1F4F7A;
+	border-style: solid;
+	box-shadow: 0 6px 10px #888;
+}
+.register:active {
+  box-shadow: 0 6px 10px #666;
+  transform: translateY(3px);
+}
+.register:hover, .register:focus{cursor:pointer;}
+
+
+/* DEBUT PIED DE PAGE */
+footer {
+	position:fixed;
+	bottom: 0;
+	width:100%;
+	border-top: 8px solid #E83968;
+	background: #fafafa;
+	text-align: center;
+	-moz-box-shadow: 0px -6px 5px  #b3b3b3;
+	-webkit-box-shadow: 0px -6px 5px  #b3b3b3;
+	-o-box-shadow: 0px -6px 5px  #b3b3b3;
+	box-shadow: 0px -6px 6px  #b3b3b3;
+
+}
+img.logo {
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+	width:80px;
+	height:auto;
+}
+/* FIN PIED DE PAGE */

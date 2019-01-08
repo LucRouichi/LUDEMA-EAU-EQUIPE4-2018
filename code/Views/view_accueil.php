@@ -13,9 +13,9 @@
   					<ul id="onglets">
     					<li><a class="active" href="view_accueil.php"> Accueil </a></li>
     					<li><a href=""> Réservation </a></li>
-    					<li><a href=""> À-Propos </a></li>
+    					<li><a href="https://centreludema.fr"> À-Propos </a></li>
     					<li><a href="view_sinscrire.php"> S'inscrire </a></li>
-    					<li><a href=""> Se connecter </a></li>
+    					<li><a href="view_seConnecter.php"> Se connecter </a></li>
   					</ul>
 
   		</header>

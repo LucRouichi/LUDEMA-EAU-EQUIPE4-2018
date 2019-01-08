@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<link rel="stylesheet" href="./../Content/sinscrire.css" />
+		<link rel="stylesheet" href="./../Content/seConnecter.css" />
 		<title> Ludema </title>
 		<meta charset="utf-8"/>
 	</head>
@@ -14,8 +14,8 @@
     					<li><a href="view_accueil.php"> Accueil </a></li>
     					<li><a href=""> Réservation </a></li>
     					<li><a href="https://centreludema.fr"> À-Propos </a></li>
-    					<li><a class="active" href="view_sinscrire.php"> S'inscrire </a></li>
-    					<li><a href="view_seConnecter.php"> Se connecter </a></li>
+    					<li><a href="view_sinscrire.php"> S'inscrire </a></li>
+    					<li><a class="active" href="view_seConnecter.php"> Se connecter </a></li>
   					</ul>
 
   		</header>
@@ -23,22 +23,11 @@
 			<form action="">
 		  <div class="container">
 
-		    <h1>S'inscrire</h1>
-				</br>
-		    <p>Veuillez fournir les informations suivantes afin de vous inscrire.</p>
-				</br>
+		    <h1>Se Connecter</h1>
+        </br>
+        </br>
 
-				<div class= 'formu'>
-				<label for="nom"><b>Nom</b></label>
-		    <input type="text" placeholder="Nom" name="nom" required>
-				</br>
-				</br>
-
-		    <label for="prenom"><b>Prénom</b></label>
-		    <input type="text" placeholder="Prénom" name="prenom" required>
-				</br>
-				</br>
-
+        <div class= 'formu'>
 				<label for="email"><b>Email</b></label>
 		    <input type="text" placeholder="Email" name="email" required>
 				</br>
@@ -46,22 +35,15 @@
 
 		    <label for="mdp"><b>Mot de passe</b></label>
 		    <input type="password" placeholder="Mot de passe" name="mdp" required>
+        <p class="MDPoubli">Mdp oublié ? Cliquer <a href="#">ici</a>.</p>
 				</br>
 				</br>
-
-		    <label for="mdp-confirm"><b>Confirmer </br> Mot de passe</b></label>
-		    <input class='midcmdp' type="password" placeholder="Mot de passe" name="mdp-confirm" required>
-				</br>
-				</br>
-				</br>
-				</div>
-
-		    <p>En créant un compte vous acceptez nos <a href="#">Conditions générales d'utilisation</a>.</p>
-				<p>Vous avez déjà un compte ? <a href="#">Se connecter</a>.</p>
+        </div>
+				<p>Pas encore de compte ? Inscrivez vous ! <a href="#">S'inscrire</a>.</p>
 				</br>
 
 
-		    <button type="submit" class="register">S'enregistrer</button>
+		    <button type="submit" class="register">Connexion</button>
 		  </div>
 
 		</form>

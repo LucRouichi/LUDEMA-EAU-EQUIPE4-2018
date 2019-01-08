@@ -59,7 +59,7 @@ body {padding-bottom: 100px;}
 /*  FIN HEADER */
 
 .container {
-	width: 50%;
+  width: 50%;
 	display:block;
   text-align: center;
 	margin-left: auto;
@@ -68,7 +68,6 @@ body {padding-bottom: 100px;}
 	font : 20px Batang, arial, serif;
 	color:#1F4F7A ;
 }
-
 .formu {
   text-align: left;
   width:50%;
@@ -76,9 +75,12 @@ body {padding-bottom: 100px;}
 	margin-left: auto;
 	margin-right: auto;
 }
-.midcmdp{
-	margin-top: 13px;
+
+.MDPoubli{
+  font : 12px Batang, arial, serif;
+  margin-left: 4px;
 }
+
 label
 {
   border : solid 6px
